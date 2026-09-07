@@ -1,0 +1,25 @@
+body{
+    background-color:black
+}
+h1{
+    background-color: yellow
+}
+/* p{
+    background-color: #00ff00
+}  */
+/* p {
+    background-color: lightblue
+} */
+p{
+    color: rgb(10, 5, 5);
+}
+div {
+    height:400px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT05dCOmUyRtaMChVeBEzIz0w_6XXmfVTMtKRF8bBcf3w&s=10"); 
+    background-size: contain; 
+    width: 400px;
+}
+div span {
+    background-color: #014131;
+    color: rgb(0, 0, 0);
+}
