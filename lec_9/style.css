@@ -1,0 +1,23 @@
+nav{
+    background-color: orangered;
+    border: black solid;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50vh;
+    /* width: 50%; */
+    align-items: self-end;
+
+}
+nav div{
+    width: 100px;
+    border: black solid;
+    background-color: yellow;
+    align-content: center;
+    
+}
+.item{
+    text-align: center;
+}
