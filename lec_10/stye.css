@@ -1,0 +1,27 @@
+.Parent{
+    background-color: rgb(3, 250, 176);
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.Parent .Box{
+    border: black solid;
+    width: 10rem;
+    height: 5rem;
+    background-color: rgb(119, 245, 1);
+    
+}
+#one{   
+    flex-grow: 1;
+
+}
+#two{   
+    flex-grow: 2;
+}
+#three{   
+    flex-grow: 2;
+}
+#four{   
+    flex-grow: 3;
+}

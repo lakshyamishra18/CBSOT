@@ -1,0 +1,27 @@
+.parent{
+    border: black solid;
+    height: 100vh;
+    display: flex;
+    padding: 1rem;
+    gap: 5rem;
+    flex-direction: column;
+    background-color: rgb(182, 36, 240);
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+
+}
+.parent .box{
+    width: 300px;
+    height: 180px;
+    border: black solid;
+    background-color: rgb(247, 38, 125);
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10%
+}
+.parent .box .child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

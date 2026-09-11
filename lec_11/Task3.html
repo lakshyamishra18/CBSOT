@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            background-color: rgb(15, 190, 132);
+            display: grid;
+            gap:5px;
+            padding: 1rem;
+            grid-template-columns: repeat(5,1fr);
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+        }
+        section div{
+            border: 1px solid;
+            background-color: rgb(235, 125, 52);
+            direction: flex;
+            text-align: center;
+            align-content: center;
+        }
+        #Header , #Footer {
+            grid-column: 1/6;
+        }
+        #Sidebar{
+            grid-row: 2/4;
+        }
+        #Content-1{
+            grid-column: 2/6;
+        }
+        #Content-2{
+            grid-column: 2/4;
+        }
+        #Content-3{
+            grid-column: 4/6;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div id="Header">Header</div>
+        <div id="Sidebar">Sidebar</div>
+        <div id="Content-1">Content-1</div>
+        <div id="Content-2">Content-2</div>
+        <div id="Content-3">Content-3</div>
+        <div id="Footer">Footer</div>
+    </section>
+</body>
+</html>

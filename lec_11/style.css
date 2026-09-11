@@ -1,0 +1,12 @@
+section{
+    background-color: rgb(15, 190, 132);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-areas: 
+    "box1 box1 box2 box3"
+    "box1 box1 box4 box5";
+}
+section div{
+    border: 1px solid;
+}
